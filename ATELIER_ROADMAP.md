@@ -11,7 +11,7 @@
 | Fait | Étape | Brique Produit | Concept IA maîtrisé |
 | :---: | :--- | :--- | :--- |
 | [x] | **Étape 1** | Table rase, Git & socle Next.js / TS / Vitest | Oracles déterministes & commande unique de vérité |
-| [ ] | **Étape 2** | `AGENTS.md` + règles `.agents/rules/` | Budget de contexte & *Progressive Disclosure* |
+| [x] | **Étape 2** | `AGENTS.md` + règles `.agents/rules/` | Budget de contexte & *Progressive Disclosure* |
 | [ ] | **Étape 3** | Cahier des charges & décisions (`docs/`) | *Spec-Driven Development* & ADR anti-amnésie |
 | [ ] | **Étape 4** | Schéma Zod, 12–15 fiches & portraits locaux | Contrats exécutables vs consignes vagues |
 | [ ] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
@@ -72,7 +72,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 2 — Context Engineering hiérarchique (`AGENTS.md` + `.agents/rules/`)
+### [x] Étape 2 — Context Engineering hiérarchique (`AGENTS.md` + `.agents/rules/`)
 - **🧠 Concept IA (niveau 0)** : Mettre toutes les consignes dans un seul `AGENTS.md` provoque du *context rot*. On applique la **Progressive Disclosure** (divulgation progressive) en 3 niveaux :
   1. **Niveau 1 — Toujours là, ultra-léger** : `AGENTS.md` (< 60 lignes) avec la carte du projet, la commande `pnpm check` et les invariants non négociables.
   2. **Niveau 2 — Chargé par chemin (`trigger: glob`)** : les règles ne s'activent que si l'agent touche aux fichiers correspondants.
