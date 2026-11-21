@@ -13,7 +13,7 @@
 | [x] | **Étape 1** | Table rase, Git & socle Next.js / TS / Vitest | Oracles déterministes & commande unique de vérité |
 | [x] | **Étape 2** | `AGENTS.md` + règles `.agents/rules/` | Budget de contexte & *Progressive Disclosure* |
 | [x] | **Étape 3** | Cahier des charges & décisions (`docs/`) | *Spec-Driven Development* & ADR anti-amnésie |
-| [ ] | **Étape 4** | Schéma Zod, 12–15 fiches & portraits locaux | Contrats exécutables vs consignes vagues |
+| [x] | **Étape 4** | Schéma Zod, 12–15 fiches & portraits locaux | Contrats exécutables vs consignes vagues |
 | [ ] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
 | [ ] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
 | [ ] | **Étape 7** | Runbooks `.agents/skills/` (+ test live) | *Rules* (passives) vs *Skills* (procédures actives) |
@@ -100,7 +100,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 4 — Contrats exécutables (Zod), Catalogue (12–15 races) & Portraits locaux
+### [x] Étape 4 — Contrats exécutables (Zod), Catalogue (12–15 races) & Portraits locaux
 - **🧠 Concept IA (niveau 0)** : Passer de la *consigne polie* (« s'il te plaît mets des avantages et inconvénients équilibrés ») au **contrat exécutable**. Un schéma **Zod** + des tests d'intégrité transforment tes attentes éditoriales et techniques en erreurs bloquantes si une donnée manque ou dérive.
 - **🐶 Livrable produit** :
   - Schéma `Breed` strict (identité, gabarit, 6 scores de 1 à 5 : énergie, appartement, famille, solitude, toilettage, éducation ; minimum 3 avantages et 3 inconvénients concrets ; coût/budget indicatif ; chemin portrait).
