@@ -12,7 +12,7 @@
 | :---: | :--- | :--- | :--- |
 | [x] | **Étape 1** | Table rase, Git & socle Next.js / TS / Vitest | Oracles déterministes & commande unique de vérité |
 | [x] | **Étape 2** | `AGENTS.md` + règles `.agents/rules/` | Budget de contexte & *Progressive Disclosure* |
-| [ ] | **Étape 3** | Cahier des charges & décisions (`docs/`) | *Spec-Driven Development* & ADR anti-amnésie |
+| [x] | **Étape 3** | Cahier des charges & décisions (`docs/`) | *Spec-Driven Development* & ADR anti-amnésie |
 | [ ] | **Étape 4** | Schéma Zod, 12–15 fiches & portraits locaux | Contrats exécutables vs consignes vagues |
 | [ ] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
 | [ ] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
@@ -87,7 +87,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 3 — *Spec-Driven Development* & Mémoire de projet (`docs/`)
+### [x] Étape 3 — *Spec-Driven Development* & Mémoire de projet (`docs/`)
 - **🧠 Concept IA (niveau 0)** : Comment empêcher l'agent de réinventer les règles du site au fil des conversations (*spec drift*) et contourner son amnésie ? En stockant la **source de vérité produit et technique** directement dans le dépôt sous forme de **spécifications courtes et testables** et d'**ADR** (*Architecture Decision Records* : pourquoi on a choisi telle solution plutôt qu'une autre).
 - **🐶 Livrable produit** :
   - Les règles précises des fiches races, des filtres, du comparateur et du calcul de compatibilité du Quiz.
