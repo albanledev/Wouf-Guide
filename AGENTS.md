@@ -24,3 +24,13 @@ Tu assistes l'utilisateur sur **WoufGuide**, un guide web ludique et honnête de
 - Ne contourne jamais les garde-fous : aucun `any`, `@ts-ignore`, `eslint-disable` ni test désactivé.
 - Sépare strictement la logique métier (`src/domain/`) de l'interface (`src/components/`, `src/app/`).
 - Ne modifie pas de fichiers hors du périmètre de l'étape demandée sans accord explicite.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

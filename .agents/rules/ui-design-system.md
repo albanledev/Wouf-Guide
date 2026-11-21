@@ -10,3 +10,4 @@ globs: "**/src/components/**/*.tsx, **/src/app/**/*.tsx, **/src/app/**/*.css"
 - **Architecture Next.js App Router** : **Server Components par défaut** ; n'ajoute `"use client"` que sur les composants interactifs feuilles (filtres, sélection du comparateur, étapes du quiz).
 - **Zéro logique métier dans l'UI** : délègue filtrage, comparaison et scoring aux fonctions pures de `@/domain/*`.
 - **Sémantique & responsive** : conception mobile-first, balises HTML sémantiques (`button`, `label`, `nav`, `main`) et attributs `alt` descriptifs sur tous les portraits de chiens.
+- **Skill Impeccable obligatoire sur l'UI** : avant toute création ou modification visuelle, charge et suis `.agents/skills/impeccable/SKILL.md` (et `reference/craft-floor.md` avant édition), puis vérifie le rendu réel avec `npx impeccable detect http://localhost:3000` sur les routes modifiées.

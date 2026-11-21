@@ -15,7 +15,7 @@
 | [x] | **Étape 3** | Cahier des charges & décisions (`docs/`) | *Spec-Driven Development* & ADR anti-amnésie |
 | [x] | **Étape 4** | Schéma Zod, 12–15 fiches & portraits locaux | Contrats exécutables vs consignes vagues |
 | [x] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
-| [ ] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
+| [x] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
 | [ ] | **Étape 7** | Runbooks `.agents/skills/` (+ test live) | *Rules* (passives) vs *Skills* (procédures actives) |
 | [ ] | **Étape 8** | Garde-fous `.agents/hooks.json` | Contrôle déterministe sur le cycle de vie agent |
 | [ ] | **Étape 9** | Serveur MCP maison, Subagent & Plugin | *Model Context Protocol*, délégation & packaging Pro |
@@ -122,7 +122,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 6 — Interface ludique & colorée + Skill externe Impeccable + Vérification visuelle
+### [x] Étape 6 — Interface ludique & colorée + Skill externe Impeccable + Vérification visuelle
 - **🧠 Concept IA (niveau 0)** :
   1. **Skill externe vs MCP** : intégrer **[Impeccable](https://impeccable.style/)** — non pas un serveur MCP, mais un pack open-source de **Skills UI** (`SKILL.md` + `DESIGN.md`) et de détecteurs déterministes installés dans `.agents/skills/` (`npx impeccable install`). On disséquera ce vrai exemple pro de *Context Engineering* visuel pour éviter le design générique (« AI slop »).
   2. Observer en direct l'effet de notre règle scopée `ui-design-system.md` (qui n'a pas pollué les étapes précédentes).
