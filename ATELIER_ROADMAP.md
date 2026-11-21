@@ -14,7 +14,7 @@
 | [x] | **Étape 2** | `AGENTS.md` + règles `.agents/rules/` | Budget de contexte & *Progressive Disclosure* |
 | [x] | **Étape 3** | Cahier des charges & décisions (`docs/`) | *Spec-Driven Development* & ADR anti-amnésie |
 | [x] | **Étape 4** | Schéma Zod, 12–15 fiches & portraits locaux | Contrats exécutables vs consignes vagues |
-| [ ] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
+| [x] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
 | [ ] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
 | [ ] | **Étape 7** | Runbooks `.agents/skills/` (+ test live) | *Rules* (passives) vs *Skills* (procédures actives) |
 | [ ] | **Étape 8** | Garde-fous `.agents/hooks.json` | Contrôle déterministe sur le cycle de vie agent |
@@ -111,7 +111,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 5 — Logique métier pure (Filtres, Comparateur, Quiz) en TDD strict
+### [x] Étape 5 — Logique métier pure (Filtres, Comparateur, Quiz) en TDD strict
 - **🧠 Concept IA (niveau 0)** : La **boucle de feedback fermée**. En isolant la logique pure dans `src/domain/` (zéro dépendance React/DOM), l'agent exécute ses tests en quelques millisecondes. On pratique le **TDD (Test-Driven Development)** : écrire d'abord le test qui échoue (**Rouge**), puis le code minimal pour le faire passer (**Vert**). C'est l'un des meilleurs leviers anti-hallucination en IA.
 - **🐶 Livrable produit** :
   - Moteur de filtrage multicritères et recherche textuelle.
