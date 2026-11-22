@@ -435,6 +435,42 @@ const RAW_BREEDS: Breed[] = [
     imagePath: "/images/breeds/labrador-retriever.png",
     imageAlt: "Portrait illustré d'un Labrador Retriever chocolat au grand sourire amical",
   },
+  {
+    slug: "berger-allemand",
+    name: "Berger Allemand",
+    tagline: "Un gardien loyal et brillant qui prend son rôle très au sérieux.",
+    summary:
+      "Polyvalent, courageux et ultra dévoué à sa famille, le Berger Allemand excelle dès qu'on lui donne une mission claire. En échange, il exige une vraie socialisation précoce, de l'exercice quotidien et un budget santé solide.",
+    origin: "Allemagne",
+    size: "large",
+    weightKg: { min: 25, max: 40 },
+    lifespanYears: { min: 9, max: 13 },
+    budgetLevel: 3,
+    scores: {
+      energy: 4,
+      apartment: 2,
+      family: 4,
+      aloneTime: 2,
+      grooming: 2,
+      trainability: 5,
+    },
+    pros: [
+      "Apprend vite et adore travailler en binôme avec son humain (obéissance, pistage, randonnée).",
+      "Loyauté et instinct protecteur naturels envers son foyer, très rassurant au quotidien.",
+      "Chien équilibré et polyvalent quand ses besoins physiques et mentaux sont respectés.",
+    ],
+    cons: [
+      "Perd abondamment ses poils toute l'année (surnommé le « berger qui mue »), brossage fréquent obligatoire.",
+      "Socialisation stricte dès chiot indispensable pour éviter méfiance excessive ou réactivité envers les inconnus.",
+      "Prédispositions connues aux problèmes articulaires (dysplasie hanches/coudes) et digestifs, budget véto élevé.",
+    ],
+    idealFor:
+      "Maître investi et cohérent, prêt à s'engager dans l'éducation, la socialisation et 1h30 d'activité quotidienne.",
+    avoidIf:
+      "Premier chien sans accompagnement, foyer sédentaire ou personne qui cherche un chien passif à laisser seul au jardin.",
+    imagePath: "/images/breeds/berger-allemand.png",
+    imageAlt: "Portrait illustré d'un Berger Allemand noir et feu aux oreilles dressées",
+  },
 ];
 
 export const BREEDS: readonly Breed[] = BreedCatalogSchema.parse(RAW_BREEDS);

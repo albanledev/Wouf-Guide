@@ -16,7 +16,7 @@
 | [x] | **Étape 4** | Schéma Zod, 12–15 fiches & portraits locaux | Contrats exécutables vs consignes vagues |
 | [x] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
 | [x] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
-| [ ] | **Étape 7** | Runbooks `.agents/skills/` (+ test live) | *Rules* (passives) vs *Skills* (procédures actives) |
+| [x] | **Étape 7** | Runbooks `.agents/skills/` (+ test live) | *Rules* (passives) vs *Skills* (procédures actives) |
 | [ ] | **Étape 8** | Garde-fous `.agents/hooks.json` | Contrôle déterministe sur le cycle de vie agent |
 | [ ] | **Étape 9** | Serveur MCP maison, Subagent & Plugin | *Model Context Protocol*, délégation & packaging Pro |
 
@@ -138,7 +138,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 7 — Skills métier à la demande (`.agents/skills/`)
+### [x] Étape 7 — Skills métier à la demande (`.agents/skills/`)
 - **🧠 Concept IA (niveau 0)** : Quelle différence entre une **Rule** et une **Skill** ?
   - Une **Rule** est un *garde-fou passif* (« respecte toujours ces conventions quand tu touches à ces fichiers »).
   - Une **Skill** est une *procédure active et réutilisable* (« voici le mode d'emploi complet étape par étape pour accomplir telle mission complexe »).
