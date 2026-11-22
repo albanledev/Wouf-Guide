@@ -18,7 +18,7 @@
 | [x] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
 | [x] | **Étape 7** | Runbooks `.agents/skills/` (+ test live) | *Rules* (passives) vs *Skills* (procédures actives) |
 | [x] | **Étape 8** | Garde-fous `.agents/hooks.json` | Contrôle déterministe sur le cycle de vie agent |
-| [ ] | **Étape 9** | Serveur MCP maison, Subagent & Plugin | *Model Context Protocol*, délégation & packaging Pro |
+| [x] | **Étape 9** | Serveur MCP maison, Subagent & Plugin | *Model Context Protocol*, délégation & packaging Pro |
 
 ---
 
@@ -161,7 +161,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 9 — Serveur MCP maison, Subagents & Packaging en Plugin (Niveau Pro)
+### [x] Étape 9 — Serveur MCP maison, Subagents & Packaging en Plugin (Niveau Pro)
 - **🧠 Concept IA (niveau 0)** :
   - **MCP (*Model Context Protocol*)** : souvent comparé au « port USB-C » de l'IA. C'est un protocole ouvert qui expose des outils et ressources externes à n'importe quel client IA compatible. On comprend son transport local **`stdio`** vs distant **Streamable HTTP**, et surtout **quand créer un MCP vs un simple script CLI + Skill** (éviter le sur-engineering !).
   - **Subagents** : confier une mission d'audit (ex. accessibilité/UX ou revue éditoriale) à un agent spécialisé dans un contexte isolé, qui rend un rapport synthétique sans encombrer ta conversation principale.

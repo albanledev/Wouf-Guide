@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "woufguide-catalog": {
+      "command": "node",
+      "args": ["/Users/albandebraquilanges/dev/IA/test/mcp-server/index.mjs"],
+      "env": {
+        "WOUFGUIDE_ROOT": "/Users/albandebraquilanges/dev/IA/test"
+      }
+    }
+  }
+}
