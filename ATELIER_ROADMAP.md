@@ -17,7 +17,7 @@
 | [x] | **Étape 5** | Filtres, Comparateur & Quiz en logique pure | Boucle de feedback rapide & TDD strict (Rouge → Vert) |
 | [x] | **Étape 6** | Pages Next.js ludiques & parcours complets | Skill externe (Impeccable), règles UI scopées & boucle visuelle |
 | [x] | **Étape 7** | Runbooks `.agents/skills/` (+ test live) | *Rules* (passives) vs *Skills* (procédures actives) |
-| [ ] | **Étape 8** | Garde-fous `.agents/hooks.json` | Contrôle déterministe sur le cycle de vie agent |
+| [x] | **Étape 8** | Garde-fous `.agents/hooks.json` | Contrôle déterministe sur le cycle de vie agent |
 | [ ] | **Étape 9** | Serveur MCP maison, Subagent & Plugin | *Model Context Protocol*, délégation & packaging Pro |
 
 ---
@@ -151,7 +151,7 @@ Avant d'écrire la moindre ligne de code ou de configuration, voici les **4 idé
 
 ---
 
-### [ ] Étape 8 — Hooks déterministes (`.agents/hooks.json`)
+### [x] Étape 8 — Hooks déterministes (`.agents/hooks.json`)
 - **🧠 Concept IA (niveau 0)** : Les consignes écrites dans un prompt restent *probabilistes* (l'IA peut parfois les oublier sur une longue session). Les **Hooks** déplacent la règle **dans le système**, de façon 100 % **déterministe** : avant (`PreToolUse`) ou après (`PostToolUse`) un outil, ou en fin de boucle (`Stop`), un script s'exécute automatiquement, reçoit un payload JSON sur `stdin` et renvoie une décision structurée sur `stdout`.
 - **🐶 Livrable produit** :
   - Hook de sécurité `PreToolUse` (empêcher les commandes destructrices accidentelles ou modifications hors cadre).
